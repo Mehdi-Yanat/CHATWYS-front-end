@@ -1,0 +1,41 @@
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 0.4px solid rgba(0, 0, 0, 0.151);
+    .logo{
+        color: rebeccapurple;
+        text-decoration: none;
+    }
+    .header__icon{
+        color: rebeccapurple;
+    }
+    img{
+        width: 70px;
+        height: 70px;
+    }
+    .pos{
+        position: relative;
+        .msg{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            background-color: rebeccapurple;
+            color: white;
+            font-size: 1rem;
+            bottom: 10px;
+            right: 5px;
+            position: absolute;
+        }
+        .msgDiplay{
+            display: none;
+        }
+    }
+}

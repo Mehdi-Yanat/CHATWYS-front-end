@@ -1,0 +1,236 @@
+.Profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    .info-2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 30px;
+        border: 10px solid rebeccapurple ;
+        width: 90% ;
+        height: 90%;
+        background: black;
+    
+    }
+ 
+    
+   
+}
+
+.chatMenu{
+    margin: 10px;
+    width: 80%;
+    height: 90%;
+    background-color: rebeccapurple;
+    border-radius: 30px ;
+}
+.chatBox{
+    margin: 10px;
+    width: 90%;
+    height: 90%;
+    border-radius: 30px;
+    background-color: rebeccapurple;
+}
+  
+  .inpuSearch {
+    width: 80%;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid gray;
+  }
+ 
+  .chatBoxTop::-webkit-scrollbar{
+      display: none;
+  }
+  .chatBoxWrapper {
+      width: 97%;
+      height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+
+  .chatBoxTop {
+    height: 80%;
+    overflow-y: scroll;
+    padding-right: 10px;
+  }
+  
+  .chatBoxBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .chatMessageInput {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+
+  }
+  
+  .chatSubmitButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+  }
+  
+  .chatOnline {
+    flex: 3;
+  }
+  
+  .chatMenuWrapper,
+  .chatBoxWrapper,
+  .chatOnlineWrapper {
+    padding: 10px;
+    height: 95%;
+  }
+  .chatMenuWrapper{
+    overflow-y: scroll;
+  }
+  .chatMenuWrapper::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .noConversationText {
+    position: absolute;
+    top: 10%;
+    font-size: 50px;
+    color: rgb(224, 220, 220);
+    cursor: default;
+  }
+  
+  textarea{
+      resize: none;
+  }
+
+  @media (max-width:768px) {
+    .Profile{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 150vh;
+      .info-2{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-around;
+          border-radius: 0px;
+          border: 0px solid rebeccapurple ;
+          width: 100% ;
+          height:100%;
+          background: black;
+      
+      }
+   
+  }
+  .chatMenu{
+    margin: 10px;
+    width: 80%;
+    height: 30%;
+    background-color: rebeccapurple;
+    border-radius: 30px ;
+}
+.chatBox{
+    margin: 10px;
+    width: 80%;
+    height: 60%;
+    border-radius: 30px;
+    background-color: rebeccapurple;
+}
+  
+  .chatMenuInput {
+    width: 80%;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid gray;
+  }
+ 
+  .chatBoxTop::-webkit-scrollbar{
+      display: none;
+  }
+  .chatBoxWrapper {
+      width: 97%;
+      height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+
+  .chatBoxTop {
+    height: 95%;
+    overflow-y: scroll;
+    padding-right: 10px;
+  }
+  
+  .chatBoxBottom {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-around;
+  }
+  
+  .chatMessageInput {
+    width: 80%;
+    height: 50px;
+    padding: 10px;
+
+  }
+  
+  .chatSubmitButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+  }
+  
+  .chatOnline {
+    flex: 3;
+  }
+  
+  .chatMenuWrapper,
+  .chatBoxWrapper,
+  .chatOnlineWrapper {
+    padding: 10px;
+    height: 95%;
+  }
+  .chatMenuWrapper{
+    height: 90%;
+    overflow-y: scroll;
+  }
+  .noConversationText {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    cursor: default;
+  }
+  
+  textarea{
+      resize: none;
+  }
+  }

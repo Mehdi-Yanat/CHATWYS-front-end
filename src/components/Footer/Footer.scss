@@ -1,0 +1,124 @@
+
+    .footer{
+        position: absolute;
+        bottom: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 20vh;
+        .icon-1{
+            box-shadow: 0px 18px 53px 0px rgba(0,0,0,0.3);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            height: 100px;
+            .replay{
+                color: chocolate;
+            }
+            .close{
+                color: darkmagenta;
+            }
+            .fav{
+                color: rgb(0, 195, 255);
+            }
+            .star{
+                color: greenyellow;
+            }
+            .bolt{
+                color: indigo;
+            }
+        }
+    
+        .true{
+            box-shadow: 0px 18px 53px 0px rgba(0,0,0,0.3);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rebeccapurple;
+            width: 100px;
+            height: 100px;
+            .replay{
+                color: chocolate;
+            }
+            .close{
+                color: rgb(8, 255, 70);
+            }
+            .fav{
+                color: rgb(0, 195, 255);
+            }
+            .star{
+                color: greenyellow;
+            }
+            .bolt{
+                color: rgb(83, 255, 226);
+            }
+        }
+    }
+    
+
+
+@media (max-width:768px) {
+    
+.footer{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 20vh;
+  .icon-1{
+        box-shadow: 0px 18px 53px 0px rgba(0,0,0,0.3);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 35px;
+        height: 45px;
+        .replay{
+            color: chocolate;
+        }
+        .close{
+            color: darkmagenta;
+        }
+        .fav{
+            color: rgb(0, 195, 255);
+        }
+        .star{
+            color: greenyellow;
+        }
+        .bolt{
+            color: indigo;
+        }
+    }
+    .true{
+        box-shadow: 0px 18px 53px 0px rgba(0,0,0,0.3);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 35px;
+        height: 45px;
+        background:rebeccapurple;
+        .replay{
+            color: chocolate;
+        }
+        .close{
+            color: darkmagenta;
+        }
+        .fav{
+            color: rgb(0, 195, 255);
+        }
+        .star{
+            color: greenyellow;
+        }
+        .bolt{
+            color: indigo;
+        }
+    }
+
+}
+}
